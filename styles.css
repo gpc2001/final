@@ -1,0 +1,34 @@
+body {
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Calistoga', cursive;
+    background-color: #003087;
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 30px;
+    margin-bottom: 80px;
+}
+
+a {
+    color: #d4daeb;
+}
+
+img {
+    width: 100%;
+}
+
+audio {
+    padding-top: 30px;
+}
+
+.moment {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #003087;
+    padding: 20px;
+    display: block;
+}
